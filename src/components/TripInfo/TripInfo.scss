@@ -1,0 +1,28 @@
+
+.tripInfo{
+  background: white;
+  position: relative;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20vw;
+  text-align: center;
+  margin-top: -3px;
+  z-index: 800;
+  position: relative;
+  right: 600px;
+  bottom: 630px;
+
+h3{
+  font-size: 25px;
+  margin: 15px 0 15px 0;
+}
+  .btnBlock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: initial;
+    margin-bottom: 15px;
+  }
+}

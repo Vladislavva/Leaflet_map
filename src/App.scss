@@ -1,0 +1,12 @@
+@import '../src/components/TripInfo/TripInfo.scss';
+@import "~bootstrap/scss/bootstrap";
+@import "../src/components/Input/input.scss";
+@import "../src/components/Button/Button.scss";
+.leaflet-container {
+  width: 100%;
+  height: 100vh;
+}
+
+*{
+  margin: 0 auto;
+}
