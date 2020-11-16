@@ -1,18 +1,20 @@
 
 .tripInfo{
   background: white;
-  position: relative;
+  // position: relative;
+position:absolut;
+  // position: fixed;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 20vw;
+  width: 285px;
   text-align: center;
   margin-top: -3px;
   z-index: 800;
   position: relative;
-  right: 600px;
-  bottom: 630px;
+  right: 610px;
+  top: 100px;
 
 h3{
   font-size: 25px;

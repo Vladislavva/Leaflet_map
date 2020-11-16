@@ -3,6 +3,7 @@ import { Map, TileLayer } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import Markers from './VenueMarkers';
 import 'leaflet-control-geocoder';
+import TripInfo from '../TripInfo/TripInfo';
 import L from "leaflet";
 
 
@@ -34,7 +35,7 @@ const MapView = () => {
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution="&copy; <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
       />
-
+<TripInfo />
       <Markers venues={markers} />
     </Map>
   );
